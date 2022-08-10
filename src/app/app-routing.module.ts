@@ -8,6 +8,8 @@ import { LoginComponent } from './login/login.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeComponent } from './home/home.component';
 
+import { DisplayGamesComponent } from './modules/games/display-games/display-games.component';
+
 const routes: Routes = [
   {
     path: '',  component: AppComponent
@@ -25,7 +27,12 @@ const routes: Routes = [
     path: 'cart', component: CartComponent
   },
   {
-    path: '', redirectTo: '/home', pathMatch: 'full'
+    path: '', 
+    redirectTo: '/home', 
+    pathMatch: 'full'
+  },
+  {
+    path: 'games', component: DisplayGamesComponent
   }
 ];
 

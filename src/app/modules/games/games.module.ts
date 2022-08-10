@@ -5,11 +5,8 @@ import { DisplayGamesComponent } from './display-games/display-games.component';
 
 
 @NgModule({
-  declarations: [
-    DisplayGamesComponent
-  ],
-  imports: [
-    CommonModule
-  ]
+  declarations: [DisplayGamesComponent ],
+  imports: [CommonModule ],
+  exports: [DisplayGamesComponent]
 })
 export class GamesModule { }
