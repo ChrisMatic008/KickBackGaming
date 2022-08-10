@@ -1,1 +1,25 @@
-<p>display-games works!</p>
+<section class="hero is-link is-bold is-fullheight">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <p class="title">
+
+            </p>
+            <p class="subtitle">
+
+            </p>
+            <div class="games">
+
+                <!-- Displaying images of the code -->
+                <h2>
+                    Games:
+                </h2>
+                <ul>
+                    <li *ngFor="let game of games">
+                        <p>{{game.gameID + 1}}. {{game.title}}: Price ${{game.normalPrice}}</p>
+                        <img [src]='game.thumb' />
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
