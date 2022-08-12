@@ -1,0 +1,11 @@
+.navbar-item {
+    background-size: cover;
+    width: 130px
+  }
+
+.navbar-brand {
+    background-size: cover;
+    width: 200px;
+    height: 25px
+}
+
