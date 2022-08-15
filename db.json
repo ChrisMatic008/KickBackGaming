@@ -1269,6 +1269,13 @@
       "password": "CC1994",
       "phoneNumber": "123-456-7890",
       "id": 1
+    },
+    {
+      "fullname": "Jim Jones",
+      "email": "jimjones@hotmail.com",
+      "password": "123jones",
+      "phoneNumber": "111-222-3333",
+      "id": 2
     }
   ]
 }
