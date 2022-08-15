@@ -1260,6 +1260,15 @@
       "dealRating": "8.2",
       "thumb": "https://cdn.cloudflare.steamstatic.com/steam/apps/239160/capsule_sm_120.jpg?t=1592493618"
     }
+  ],
+  "posts": [],
+  "signupUsers": [
+    {
+      "fullname": "Chris Christmon",
+      "email": "cchristmon022002@yahoo.com",
+      "password": "CC1994",
+      "phoneNumber": "123-456-7890",
+      "id": 1
+    }
   ]
-    
 }

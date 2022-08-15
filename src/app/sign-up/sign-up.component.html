@@ -11,12 +11,12 @@
   <div class="container">
 
     <!-- sign-up form -->
-    <form>
+    <form [formGroup]="signupForm" (ngSubmit)="signUp()">
       <!-- name -->
       <div class="field">
         <label class="label">Name</label>
         <div class="control">
-          <input class="input" type="text" placeholder="e.g Alex Smith">
+          <input formControlName="fullname" class="input" type="text" placeholder="e.g Alex Smith">
         </div>
       </div>
 
@@ -24,7 +24,7 @@
       <div class="field">
         <label class="label">Email Address</label>
         <div class="control">
-          <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+          <input formControlName="email" class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
         </div>
       </div>
 
@@ -32,7 +32,7 @@
       <div class="field">
         <label class="label">Create Password</label>
         <div class="control">
-          <input class="input" type="text" placeholder="e.g 123 Hills Rd">
+          <input formControlName="password" class="input" type="text" placeholder="e.g 123 Hills Rd">
         </div>
       </div>
 
@@ -40,17 +40,17 @@
       <div class="field">
         <label class="label">Phone Number</label>
         <div class="control">
-          <input class="input" type="email" placeholder="e.g. 123-456-4789">
+          <input formControlName="phoneNumber" class="input" type="email" placeholder="e.g. 123-456-4789">
         </div>
       </div>
 
-      <!-- submit button -->
+      <!-- Sign up submit button -->
       <div class="control">
         <button class="button is-success">Sign Up</button>
       </div>
     </form>
+    
+    <!--Route to login page-->
     <a routerLink="/login">Already registered? Click here to login</a>
-
   </div>
-
 </section>
