@@ -19,7 +19,7 @@ export class LoginComponent implements OnInit {
     })
   }
   login(){
-    this.http.get<any>("http://localhost:3000/signupUsers")
+    this.http.post<any>("http://localhost:3000/login", this.loginForm.value)
     .subscribe((res: any[])=>{
       const user = res.find((a:any)=>{
         return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password;
@@ -34,5 +34,24 @@ export class LoginComponent implements OnInit {
     },(err: any)=>{
       alert("Something went wrong")
     })
+
+    // .subscribe({
+    //   next: (res: any[])=>{
+    //     const user = res.find((a:any)=>{
+    //       return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password;
+    //     });
+    //     if(user){
+    //       alert("Login successful");
+    //       this.loginForm.reset();
+    //       this.router.navigate(['/home'])
+    //     }else{
+    //       alert("user not found");
+    //     }
+    //   },
+
+    //   error: (e) => {
+    //     alert("Something went wrong")
+    //   },
+    // })
   }
 }

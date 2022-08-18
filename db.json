@@ -1262,6 +1262,22 @@
     }
   ],
   "posts": [],
+  "users": [
+    {
+      "email": "jan.pevny@bethel.com",
+      "password": "$2a$10$5o2N5e7P.D8ZK0DR0DOnf.MAL2H94.M95lA1KgsTw/XU1R.5M0znG",
+      "fullname": "Jan Pevny",
+      "phoneNumber": "5307828167",
+      "id": 1
+    },
+    {
+      "email": "cchristmon@myindwes.edu",
+      "password": "$2a$10$nBmZalVvyKbTDnoWJiT/..h2De/8jBROsn4epU1de6VXocIqbh0w6",
+      "fullname": "chris christmon",
+      "phoneNumber": "9999999999",
+      "id": 2
+    }
+  ],
   "signupUsers": [
     {
       "fullname": "Chris Christmon",
@@ -1276,6 +1292,13 @@
       "password": "123jones",
       "phoneNumber": "111-222-3333",
       "id": 2
+    },
+    {
+      "fullname": "Aj smith",
+      "email": "ajsmith@hotmail.com",
+      "password": "1234",
+      "phoneNumber": "123-123-1234",
+      "id": 3
     }
   ]
 }
