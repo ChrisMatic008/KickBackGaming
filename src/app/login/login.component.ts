@@ -19,10 +19,10 @@ export class LoginComponent implements OnInit {
     })
   }
   login(){
-    this.http.post<any>("http://localhost:3000/login", this.loginForm.value)
-    .subscribe((res: any[])=>{
+    this.http.get<any>("http://localhost:3000/users")
+    .subscribe(res=>{
       const user = res.find((a:any)=>{
-        return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password;
+        return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password
       });
       if(user){
         alert("Login successful");

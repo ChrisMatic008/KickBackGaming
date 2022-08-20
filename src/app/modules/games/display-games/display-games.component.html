@@ -8,12 +8,10 @@
 
             </p>
             <!-- Displaying images of the code -->
-            <h2>
-                Games:
-            </h2>
+            <h2>Games</h2>
                 <div class="container">
                         <div class="cardComp item" *ngFor="let game of games">
-                                <p >{{game.gameID + 1}}. {{game.title}}: Price ${{game.normalPrice}}</p>
+                                <p > {{game.title}}: Price ${{game.normalPrice}} </p>
                                 <img [src]='game.thumb' />
                     </div>
                 </div>

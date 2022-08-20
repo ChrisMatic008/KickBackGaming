@@ -4,7 +4,7 @@ import { Game } from 'src/app/models/game';
 
 @Component({
   selector: 'app-display-games',
-  templateUrl: './display-games.component.html',
+  templateUrl: './display-games.component.html' ,
   styleUrls: ['./display-games.component.css']
 })
 export class DisplayGamesComponent implements OnInit {

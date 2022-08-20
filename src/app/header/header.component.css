@@ -1,11 +1,36 @@
 .navbar-item {
     background-size: cover;
-    width: 130px
+    width: 110px
   }
 
 .navbar-brand {
     background-size: cover;
     width: 200px;
     height: 25px
+}
+
+header{
+   padding: 20px 0;
+}
+
+.cart_icon{
+  position: relative;
+}
+
+.cart_icon i{
+    font-size: 24px;
+    color: #fff;
+}
+
+.cart_value{
+  position: absolute;
+  top: -16px;
+  right: -32px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  padding: 4px 10px;
+  font-weight: 800;
+  font-style: 16px;
 }
 
