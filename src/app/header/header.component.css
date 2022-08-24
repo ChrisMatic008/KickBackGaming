@@ -1,21 +1,31 @@
+.button{
+  height: 50px;
+  width: 65px;
+}
+.navbar {
+  background-image: url('/assets/images/Pngtree.jpg') !important;
+  background-size: cover;
+  background-position: center center;
+}
 .navbar-item {
     background-size: cover;
     width: 110px;
-    height: 25px
+    height: 50px;
+    position: absolute
   }
 
 .navbar-brand {
     background-size: cover;
-    width: 200px;
-    height: 25px
+    width: 175px;
+    height: 10px
 }
-.control
-{ background-size: cover;
-  width: 110;
-  height: 25px;
+.control{ 
+  background-size: cover;
+  width: 500;
+  height: 40px;
 }
 header{
-   padding: 20px 0;
+   padding: 10px 32px;
 }
 
 .cart_icon{

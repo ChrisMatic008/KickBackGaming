@@ -4,9 +4,18 @@ div {
 label{
     text-align: left;
 }
-
+.hero {
+    background-image: url('/assets/images/Pngtree.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+  }
+  .section {
+    background-image: url('/assets/images/PngtreeGo.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+  }
  
-.input.ng-invalid.ng-dirty{
+/* .input.ng-invalid.ng-dirty{
     border-bottom-color : red !important;
     box-shadow: 0 1px 0 0 red !important;
-}
+} */

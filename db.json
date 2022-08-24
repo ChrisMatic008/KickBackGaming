@@ -1276,6 +1276,34 @@
       "fullname": "chris christmon",
       "phoneNumber": "9999999999",
       "id": 2
+    },
+    {
+      "fullname": "alex smith",
+      "email": "alexsmith@Gmail.com",
+      "password": "smith123",
+      "phoneNumber": "88888888888",
+      "id": 3
+    },
+    {
+      "email": "robertsmith@Gmail.com",
+      "password": "$2a$10$ULp71NUz2pJAT4cg81E8lecAcYkTB2wAKrBVgoWyX6SdHdNw8FUoK",
+      "fullname": "robert smith",
+      "phoneNumber": "8888888888",
+      "id": 4
+    },
+    {
+      "email": "bsmith@g.com",
+      "password": "$2a$10$CZi26xnhWU18CiOktcNquue6TpsbJezS5GPJpAjB67pR9.H02CUcq",
+      "fullname": "bob smith",
+      "phoneNumber": "2222222222",
+      "id": 5
+    },
+    {
+      "email": "jsmith@gmail.com",
+      "password": "$2a$10$s.juwJkjI.IoN9OY7NLI7.NftIas5AKk1eyw0Yww9Ppovq4/ifnSq",
+      "fullname": "jack smith",
+      "phoneNumber": "4444444444",
+      "id": 6
     }
   ],
   "signupUsers": [

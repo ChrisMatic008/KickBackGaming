@@ -14,7 +14,7 @@ import { FooterComponent } from './footer/footer.component';
 
 import { GamesModule } from './modules/games/games.module';
 import { HttpClientModule } from '@angular/common/http';
-import { UserDashboardComponent } from './user-dashboard/user-dashboard.component';
+import { UserDashboardComponent } from './modules/user-dashboard/user-dashboard.component';
 
 
 @NgModule({

@@ -9,6 +9,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { HomeComponent } from './home/home.component';
 
 import { DisplayGamesComponent } from './modules/games/display-games/display-games.component';
+import { UserDashboardComponent } from './modules/user-dashboard/user-dashboard.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,9 @@ const routes: Routes = [
   },
   {
     path: 'cart', component: CartComponent
+  },
+  {
+    path: 'userdashboard', component: UserDashboardComponent
   },
   {
     path: '', 
