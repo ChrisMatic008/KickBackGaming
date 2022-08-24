@@ -1276,44 +1276,6 @@
       "fullname": "chris christmon",
       "phoneNumber": "9999999999",
       "id": 2
-    },
-    {
-      "email": "MJones@hotmail.com",
-      "password": "$2a$10$yOUXsTn4/5FTjRzL2GeRBuWMZFQIZaXuly0keDV5qawN6Rpj1KEUq",
-      "fullname": "Mike Jones",
-      "phoneNumber": "1234567890",
-      "id": 3
-    },
-    {
-      "email": "DWhite@gmail.com",
-      "password": "$2a$10$LklD7jPhXrQycSOKceE/9Ohq0BvabceaOib78RI/s7h5s8npMR7gG",
-      "fullname": "Don White",
-      "phoneNumber": "1234567890",
-      "id": 4
-    },
-    {
-      "fullname": "Rod Smith",
-      "email": "rodsmith@Gmail.com",
-      "password": "rdsmith",
-      "phoneNumber": "4444444444",
-      "id": 5
-    },
-    {
-      "email": "DWhite@gmail.com",
-      "password": "dw123",
-      "id": 6
-    },
-    {
-      "email": "rodsmith@Gmail.com",
-      "password": "rodsmith",
-      "id": 7
-    },
-    {
-      "email": "markwine@Gmail.com",
-      "password": "$2a$10$EJ3VF8BERaU1YZ5BSTbKWupv2dMwhhNRB9QH9uPKJmrQx6SWSmQKG",
-      "fullname": "mark wine",
-      "phoneNumber": "5555555555",
-      "id": 8
     }
   ],
   "signupUsers": [
