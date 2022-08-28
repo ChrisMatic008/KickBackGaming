@@ -37,6 +37,9 @@ const routes: Routes = [
   },
   {
     path: 'games', component: DisplayGamesComponent
+  },
+  {
+    path: 'user', component: UserDashboardComponent
   }
 ];
 

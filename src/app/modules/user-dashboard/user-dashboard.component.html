@@ -1,29 +1,38 @@
 <section class="hero is-dark is-bold">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title"> User CRUD <i class="fa-solid fa-user-pen"></i> </h1>  
-      </div>
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title"> User CRUD <i class="fa-solid fa-user-pen"></i> </h1>
+      <button class="button is-primary">Add User</button>
     </div>
-    
-  </section>
+  </div>
+
+</section>
 <nav class="navbar navbar-light bg-primary">
- <div class="container-fluid">
-    <h1 style="color:rgb(0, 0, 0);">User CRUD</h1>
+  <div class="container-fluid">
     <div class="d-flex">
-        <button type="button" class="btn btn-success">Add User</button>
     </div>
- </div>   
+  </div>
 </nav>
 
-<table>
-    <thead>
-        <tr>
-            <h2>User Profile</h2>
-            <div class="container">
-                    <div class="cardComp item" *ngFor="let user of users">
-                            <p > User Number {{user.id}} : {{user.fullname}} : {{user.phoneNumber}} </p>
-                </div>
-            </div>
-        </tr>
-    </thead>
+<table class="table">
+  <thead>
+    <tr>
+           <th scope="col">User ID</th>
+           <th scope="col">FullName</th>
+           <th scope="col">Email Address</th>
+           <th scope="col">Mobile Number</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Chris Christmon</td>
+      <td>christmon@Gmail.com</td>
+      <td>999-999-9999</td>
+      <td>
+        <button>Edit</button>
+        <button>Delete</button>
+      </td>
+    </tr>
+  </tbody>
 </table>

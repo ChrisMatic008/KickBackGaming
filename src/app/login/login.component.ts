@@ -18,12 +18,12 @@ export class LoginComponent implements OnInit {
       password: ['']
     })
   }
+  // Login function define
   login(){
-    this.http.get<any>("http://localhost:3000/users")
-    .subscribe(res=>{
+    this.http.get<any>("http://localhost:3000/users").subscribe(res=>{
       const user = res.find((a:any)=>{
         return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password
-      });
+      })
       if(user){
         alert("Login successful");
         this.loginForm.reset();

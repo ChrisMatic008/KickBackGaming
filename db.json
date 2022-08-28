@@ -1278,32 +1278,11 @@
       "id": 2
     },
     {
-      "fullname": "alex smith",
-      "email": "alexsmith@Gmail.com",
-      "password": "smith123",
-      "phoneNumber": "88888888888",
+      "email": "bjones@Gmail.com",
+      "password": "$2a$10$RBLyk5efZQMphghjhFNQ6u8h.S68vPZg4hGrgaxt5GBLJ3qGKQHp2",
+      "fullname": "Bob jones",
+      "phoneNumber": "5555555555",
       "id": 3
-    },
-    {
-      "email": "robertsmith@Gmail.com",
-      "password": "$2a$10$ULp71NUz2pJAT4cg81E8lecAcYkTB2wAKrBVgoWyX6SdHdNw8FUoK",
-      "fullname": "robert smith",
-      "phoneNumber": "8888888888",
-      "id": 4
-    },
-    {
-      "email": "bsmith@g.com",
-      "password": "$2a$10$CZi26xnhWU18CiOktcNquue6TpsbJezS5GPJpAjB67pR9.H02CUcq",
-      "fullname": "bob smith",
-      "phoneNumber": "2222222222",
-      "id": 5
-    },
-    {
-      "email": "jsmith@gmail.com",
-      "password": "$2a$10$s.juwJkjI.IoN9OY7NLI7.NftIas5AKk1eyw0Yww9Ppovq4/ifnSq",
-      "fullname": "jack smith",
-      "phoneNumber": "4444444444",
-      "id": 6
     }
   ],
   "signupUsers": [
@@ -1313,20 +1292,6 @@
       "password": "CC1994",
       "phoneNumber": "123-456-7890",
       "id": 1
-    },
-    {
-      "fullname": "Jim Jones",
-      "email": "jimjones@hotmail.com",
-      "password": "123jones",
-      "phoneNumber": "111-222-3333",
-      "id": 2
-    },
-    {
-      "fullname": "Aj smith",
-      "email": "ajsmith@hotmail.com",
-      "password": "1234",
-      "phoneNumber": "123-123-1234",
-      "id": 3
     }
   ]
 }

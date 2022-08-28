@@ -23,13 +23,15 @@ export class SignUpComponent implements OnInit {
       phoneNumber: ['']
     })
   }
+
+  // Make function to create a new user
   signUp(){
     this.http.post<any>("http://localhost:3000/users",this.signupForm.value)
     .subscribe(res=>{
       alert("Signup Successful");
       this.signupForm.reset();
       this.router.navigate(['login']);
-    },err =>{
+    }, err =>{
       alert("Something went wrong")
     })
   }

@@ -1,3 +1,7 @@
 .card {
-    background-color: gray;
+
+    background-image: url('/assets/images/Pngtree.jpg') !important;
+    background-size: cover;
+    background-position: center center;
+
 }

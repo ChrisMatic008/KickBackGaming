@@ -1,11 +1,23 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    background-color: gray;
 
   }
   
   .item {
     flex: 30%;
+  }
+  div {
+    text-align: center;
+}
+label{
+    text-align: left;
+}
+.hero {
+    background-image: url('/assets/images/Pngtree.jpg') !important;
+    background-size: cover;
+    background-position: center center;
   }
   /* . {
     background-image: url('/assets/images/Pngtree.jpg') !important;

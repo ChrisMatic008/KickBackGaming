@@ -15,6 +15,7 @@ import { FooterComponent } from './footer/footer.component';
 import { GamesModule } from './modules/games/games.module';
 import { HttpClientModule } from '@angular/common/http';
 import { UserDashboardComponent } from './modules/user-dashboard/user-dashboard.component';
+import { ProductsComponent } from './components/products/products.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { UserDashboardComponent } from './modules/user-dashboard/user-dashboard.
     LoginComponent,
     CartComponent,
     FooterComponent,
-    UserDashboardComponent
+    UserDashboardComponent,
+    ProductsComponent
   ],
   imports: [
     BrowserModule,
