@@ -9,11 +9,11 @@ label{
     background-size: cover;
     background-position: center center;
   }
-  .section {
+  /* .section {
     background-image: url('/assets/images/Wallpic.jpg') !important;
     background-size: cover;
     background-position: center center;
-  }
+  } */
  
 .input.ng-invalid.ng-dirty{
     border-bottom-color : red !important;
