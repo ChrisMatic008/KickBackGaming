@@ -1283,6 +1283,13 @@
       "fullname": "Bob jones",
       "phoneNumber": "5555555555",
       "id": 3
+    },
+    {
+      "email": "ronsmith@Gmail.com",
+      "password": "$2a$10$ifUcOaRN/C15qld9jz4ijODhcP3sqdSZeDYSij1XEkmW8DJCoQGhC",
+      "fullname": "Ron Smith",
+      "phoneNumber": "4444444444",
+      "id": 4
     }
   ],
   "signupUsers": [

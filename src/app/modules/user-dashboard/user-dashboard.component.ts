@@ -22,6 +22,6 @@ export class UserDashboardComponent implements OnInit {
     ngOnInit(): void {
       this.getUsers();
   }
-  
+
   }
 

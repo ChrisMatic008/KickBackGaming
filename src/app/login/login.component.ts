@@ -27,7 +27,7 @@ export class LoginComponent implements OnInit {
       if(user){
         alert("Login successful");
         this.loginForm.reset();
-        this.router.navigate(['/home'])
+        this.router.navigate(['/userdashboard'])
       }else{
         alert("user not found");
       }
